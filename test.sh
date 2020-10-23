@@ -11,7 +11,8 @@
 #SBATCH --output=test_%A_%a.out
 
 module purge
-module load cuda/10.1.105
+module load cuda/10.2.89
+# module load cuda/10.1.105
 
 python -u /home/eo41/complex-neurons/test.py --arity 3
 
