@@ -1,3 +1,0 @@
-Namespace(arity=3)
-torch.Size([128, 9, 30, 30])
-Done
